@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Libertinus+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Loan Calculator</h2>
+        <form id="loan_Form">
+
+            <label for="amount">Loan Amount:</label>
+            <input type="number" id="amount"  required>
+                
+            <label for="rate">Inerest_Rate (%):</label>
+            <input type="number"  id="rate"  required>
+
+            <label for="term">Loan Term(in Months):</label>
+            <input type="number" id="term"  required>
+                
+            <button type="submit" id="Calculate">Calculate</button>
+        </form>
+    <div id="result">
+        Final Result
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
